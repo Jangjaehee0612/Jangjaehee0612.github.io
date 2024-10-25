@@ -35,7 +35,41 @@ h1, p, h2 {
     h1 {
         font-family: 'Bebas Neue', monospace;
         font-size: 100px;
+        margin-top: 20px;  /* h1의 위쪽 여백 */
+        margin-bottom: 20px;  /* h1의 아래쪽 여백 */
         color: #00a390
     }
-    
 }
+
+#screen3 {
+    p1 {
+    display: block;  
+    margin-top: 20px;  
+    margin-bottom: 50px; 
+    }
+    }
+
+#screen3 p2 {
+    display: block; 
+    font-size: 40px;
+    color: #0d8792
+    }    
+
+#screen3 p3 {
+    display: block; 
+    font-size: 20px;
+} 
+
+video {
+        margin-bottom: 20px;  /* h1의 아래쪽 여백 */
+        max-width: 100%;
+        height: auto; /* 비디오의 비율을 유지하면서 크기를 조정 */
+        border-radius: 8px;
+
+}
+
+#screen3 p4 {
+    display: block; 
+    font-size: 40px;
+    color: #0d8792
+    }  
