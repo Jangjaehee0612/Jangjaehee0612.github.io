@@ -1,7 +1,6 @@
 /* style.css */
 body, html {
-    height: 100%;
-    margin: 0;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,26 +30,23 @@ h1, p, h2 {
     margin: 10px;
 }
 
-#screen3 {
-    h1 {
+#screen3 h1 {
         font-family: 'Bebas Neue', monospace;
         font-size: 100px;
         margin-top: 20px;  /* h1의 위쪽 여백 */
         margin-bottom: 20px;  /* h1의 아래쪽 여백 */
         color: #00a390
     }
-}
 
-#screen3 {
-    p1 {
-    display: block;  
+#screen3 p1 {
+    display: block; 
     margin-top: 20px;  
     margin-bottom: 50px; 
-    }
     }
 
 #screen3 p2 {
     display: block; 
+    margin-top: 20px;  
     font-size: 40px;
     color: #0d8792
     }    
@@ -69,6 +65,12 @@ video {
 }
 
 #screen3 p4 {
+    display: block; 
+    font-size: 40px;
+    color: #0d8792
+    }  
+
+#screen3 p6 {
     display: block; 
     font-size: 40px;
     color: #0d8792
